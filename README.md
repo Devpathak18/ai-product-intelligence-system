@@ -59,7 +59,7 @@ Top-K products returned ranked by similarity
 **Queries tested:**
 
 Query: "blue casual shirt"
-![Reverse search result](screenshots.md/reverse_search_blue_casual_shirt.png)
+![Reverse search result](screenshots/reverse_search_blue_casual_shirt.png)
 
 Query: "red party dress"
 ![Reverse search result](screenshots.md/reverse_search_red_party_dress.png)
