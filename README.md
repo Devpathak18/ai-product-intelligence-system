@@ -4,7 +4,6 @@
 > powered by one shared CLIP embedding backbone.
 > Built on 6,000 real fashion product images.
 
-
 **Dataset:** Fashion Product Images (Small) — Kaggle
 **Model:** CLIP ViT-B-32 (OpenAI pretrained weights)
 **Built by:** Dev Pathak | github.com/Devpathak18
@@ -60,12 +59,10 @@ Top-K products returned ranked by similarity
 **Queries tested:**
 
 Query: "blue casual shirt"
-<img width="1806" height="397" alt="1_reverse_search_blue_casual_shirt" src="https://github.com/user-attachments/assets/728f2826-c42a-40ef-8d77-f4d743ebc992" />
-
+![Reverse search result](screenshots.md/reverse_search_blue_casual_shirt.png)
 
 Query: "red party dress"
-<img width="1806" height="397" alt="2_reverse_search_red_party_dress" src="https://github.com/user-attachments/assets/56423b83-b5e0-4a8c-9c64-04775895ad4f" />
-
+![Reverse search result](screenshots.md/reverse_search_red_party_dress.png)
 
 ---
 
@@ -100,12 +97,10 @@ duplicate of EVERY existing member — mutual clique,
 not connected chain.
 
 **Similarity distribution analysis:**
-<img width="635" height="393" alt="5_similarity_distribution_tshirts" src="https://github.com/user-attachments/assets/1d34f34b-dbb9-487b-a418-7b28e7bcee5c" />
-
+![Similarity distribution](screenshots.md/similarity_distribution_tshirts.png)
 
 **Duplicate group detected and removed:**
-<img width="1407" height="397" alt="6_duplicate_group_belts_1" src="https://github.com/user-attachments/assets/92e3d49a-2f11-4acd-ba99-4c1cf1fc891e" />
-
+![Duplicate group](screenshots.md/duplicate_group_belts_1.png)
 
 **Thresholds:**
 - Image similarity: 0.95 cosine
@@ -137,8 +132,7 @@ Return top-K per complementary category
 ```
 
 **Example — Puma sneaker input:**
-<img width="2205" height="397" alt="9_recommendation_puma_sneaker" src="https://github.com/user-attachments/assets/1e1f61ad-eec2-45ea-918d-08c6bea29c85" />
-
+![Complementary recommendations](screenshots.md/recommendation_puma_sneaker.png)
 
 **Honest limitation:**
 Affinity table is hand-authored here because 
@@ -180,8 +174,7 @@ Five architectural layers:
 4. Human review and quality control layer
 5. Data storage and catalog layer
 
-<img width="1500" height="450" alt="11_day1_pipeline" src="https://github.com/user-attachments/assets/47fb68dc-ae6a-40e1-b698-cf85b8a30065" />
-
+![System architecture](screenshots.md/day1_pipeline.png)
 
 ---
 
